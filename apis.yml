@@ -1,7 +1,26 @@
 aid: penfieldai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/penfieldai.png
 name: Penfield.AI
-description: Penfield.AI is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Penfield.AI is a human-machine intelligence and process-verification platform
+  for security operations. It enforces standard operating procedures across Security
+  Operations Centers (SOC), IAM, MSSP, and GRC teams, provides real-time analyst productivity
+  and shift-level queue visibility, and governs AI agents so they follow approved
+  procedures rather than acting unsupervised. The platform is self-hosted (Kubernetes,
+  Azure, or on-prem) and integrates with tools such as Microsoft Sentinel. Backed by
+  500 Global. This API Evangelist profile was enriched from Penfield.AI's public web
+  presence; the company publishes no public REST/GraphQL API, OpenAPI spec, or SDK
+  because the product deploys into the customer's own infrastructure.
 url: https://raw.githubusercontent.com/api-evangelist/penfieldai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Cybersecurity
+- Security Operations
+- SOC
+- AI Governance
+- Compliance
+- Process Verification
+- MSSP
+- Identity and Access Management
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,30 @@ maintainers:
 common:
 - type: Website
   url: https://penfield.ai
+- type: DeveloperPortal
+  url: https://docs.penfield.ai/docs/
+- type: Documentation
+  url: https://docs.penfield.ai/docs/
+- type: GettingStarted
+  url: https://academy.penfield.ai
+- type: Pricing
+  url: https://penfield.ai/pricing
+- type: SignUp
+  url: https://penfield.ai/book-demo
+- type: PrivacyPolicy
+  url: https://penfield.ai/privacy-policy
+- type: TrustCenter
+  url: https://docs.penfield.ai/trustcenter/
+- type: Compliance
+  url: https://docs.penfield.ai/trustcenter/
+- type: Conformance
+  url: conformance/penfieldai-conformance.yml
+- type: DomainSecurity
+  url: security/penfieldai-domain-security.yml
+- type: LLMsTxt
+  url: llms/penfieldai-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

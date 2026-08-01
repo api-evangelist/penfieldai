@@ -1,0 +1,13 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.penfield.ai/trustcenter/
+url: https://docs.penfield.ai/trustcenter/
+certifications:
+- SOC 2 Type II
+- ISO 27001
+evidence:
+- source: https://docs.penfield.ai/trustcenter/
+  keywords:
+  - soc 2 type ii
+  - iso 27001
+  - trust center
