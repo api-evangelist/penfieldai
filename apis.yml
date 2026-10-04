@@ -51,7 +51,6 @@ tags:
 - Compliance
 - Process Verification
 - MSSP
-- Identity and Access Management
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -88,3 +87,5 @@ x-enrichment:
   status: enriched
   artifacts_added: 5
   pass: local-v1
+x-tags-removed:
+- Identity and Access Management
